@@ -50,6 +50,7 @@ ul {
 
 a {
 	text-decoration: none;
+  font-weight: 700;
 }
 
 img {
@@ -78,7 +79,6 @@ img {
 .main-nav a {
   background: #fff;
   margin-bottom: 5px;
-  font-weight: 600;
 }
 
 /* ---- Layout Containers ---- */
@@ -94,7 +94,8 @@ footer {
   margin: 0 auto;
 }
 
-.portfolio {
+.portfolio,
+.contact {
   background: #fff;
   padding-top: 2em;
 }
@@ -102,6 +103,10 @@ footer {
 .skills {
   background-color: #eceff1;
   padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.contact {
   padding-bottom: 2em;
 }
 
@@ -120,7 +125,8 @@ p {
   margin: 0 auto;
   padding-bottom: 2em;
 }
-.skills p {
+.skills p,
+.contact p {
     padding-bottom: 1em;
 }
 
@@ -138,6 +144,11 @@ p {
 
 .list-skills li:nth-child(odd) {
   background: #626f7e;
+}
+
+.tel,
+.email {
+  word-spacing: 10px;
 }
 
 
