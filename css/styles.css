@@ -10,6 +10,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5;
 	color: #3a3a3a;
+  background: #f5f5f5;
 }
 
 p {
@@ -30,6 +31,7 @@ ul {
 ul {
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 a {
@@ -49,20 +51,29 @@ img {
 
 .name {
   margin-top: 0;
-  font-size: 1.6em;
+  margin-bottom: 0;
+  font-size: 1.5em;
 }
 
 .name a,
 .main-nav a {
   text-align: center;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
-
+.main-nav a {
+  background: #fff;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
 
 /* ---- Layout Containers ---- */
 
+.main-header {
+  width: 95%;
+  margin: 0 auto;
+}
 
 
 /* ---- Page Elements ---- */
