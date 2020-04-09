@@ -53,6 +53,10 @@ a {
   font-weight: 700;
 }
 
+a:hover {
+  color: #626f7e;
+}
+
 img {
 	max-width: 100%;
 }
@@ -110,6 +114,12 @@ footer {
   padding-bottom: 2em;
 }
 
+footer {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 0;
+  border-top: 2px solid #eceff1;
+}
 /* ---- Page Elements ---- */
 
 .img-profile {
@@ -151,6 +161,37 @@ p {
   padding-bottom: 5px;
 }
 
+footer h2 {
+  text-align: left;
+  text-transform: none;
+  font-size: .8em;
+  float: left;
+  width: 60%;
+}
+
+footer ul {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.back {
+  font-size: .8em;
+}
+
 /* =================================
   Media Queries
 ==================================== */
+
+/* ---- Float Clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
