@@ -52,6 +52,13 @@ img {
   font-size: 1.6em;
 }
 
+.name a,
+.main-nav a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+
 
 
 /* ---- Layout Containers ---- */
