@@ -1,3 +1,8 @@
+
+/* =================================
+  Base Element Styles
+==================================== */
+
 * {
 	box-sizing: border-box;
 }
@@ -5,38 +10,26 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5;
+	color: #3a3a3a;
   background: #f5f5f5;
 }
 
-body,
-a {
-  color: #3a3a3a;
-}
-
-main,
-.name,
-.main-nav a {
+main {
   text-align: center;
 }
 
 p {
 	font-size: 1em;
-}
-
-p,
-h2 {
 	margin-bottom: 1.5em;
 }
 
 h2 {
   font-size: 1.2em;
+  margin-bottom: 1.5em;
 }
 
 h2,
-h3,
-ul,
-footer,
-.name {
+h3 {
 	margin-top: 0;
 }
 
@@ -53,18 +46,14 @@ ul {
 ul {
   list-style-type: none;
   padding-left: 0;
-}
-
-ul,
-footer h2,
-.name,
-.list-skills {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 a {
 	text-decoration: none;
   font-weight: 700;
+  color: #3a3a3a;
 }
 
 a:visited,
@@ -76,64 +65,66 @@ img {
 	max-width: 100%;
 }
 
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
 .name {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 1em;
+  padding-bottom: 1em;
   font-size: 1.5em;
 }
 
 .name,
-footer,
-img,
-.skills p {
-  padding-bottom: 1em;
-}
-
-.name,
 .main-nav a {
+  text-align: center;
   display: block;
 }
 
 .main-nav a {
-  margin-bottom: 5px;
-  padding-top: .9em;
-  padding-bottom: .9em;
-}
-
-.main-nav a,
-.portfolio,
-.contact {
   background: #fff;
+  margin-bottom: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /* ---- Layout Containers ---- */
 
-p,
-.main-header,
-.skills,
-.contact, {
+.main-header {
   padding-bottom: 2em;
 }
 
-p,
-footer,
 .main-header,
-.container {
+.container,
+footer {
   width: 90%;
   margin: 0 auto;
 }
 
 .portfolio,
-.skills,
 .contact {
+  background: #fff;
   padding-top: 2em;
 }
 
 .skills {
   background-color: #eceff1;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.contact {
+  padding-bottom: 2em;
 }
 
 footer {
   padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 0;
   border-top: 2px solid #eceff1;
 }
 /* ---- Page Elements ---- */
@@ -144,6 +135,23 @@ footer {
 
 .img-profile {
   width: 75%;
+}
+
+img {
+  padding-bottom: 1em;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.skills p, {
+    padding-bottom: 1em;
+}
+
+.list-skills {
+  margin-bottom: 0;
 }
 
 .list-skills li {
@@ -172,22 +180,19 @@ footer h2 {
   width: 60%;
 }
 
-.footer-nav {
-  display: none;
-}
-
-.back {
-  font-size: .8em;
+footer ul {
   text-align: right;
   display: inline-block;
   float: right;
   width: 40%;
 }
 
-.back a {
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.footer-nav {
+  display: none;
+}
+
+.back {
+  font-size: .8em;
 }
 
 /* =================================
