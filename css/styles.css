@@ -22,9 +22,19 @@ p {
 	margin-bottom: 1.5em;
 }
 
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
 h2,
 h3 {
 	margin-top: 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: normal;
 }
 
 h2,
