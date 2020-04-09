@@ -1,3 +1,4 @@
+
 /* =================================
   Base Element Styles
 ==================================== */
@@ -46,15 +47,18 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
 	text-decoration: none;
   font-weight: 700;
+  color: #3a3a3a;
 }
 
+a:visited,
 a:hover {
-  color: #626f7e;
+  color: #2472aa;
 }
 
 img {
@@ -70,25 +74,28 @@ img {
 .name {
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-size: 1.5em;
 }
 
-.name a,
+.name,
 .main-nav a {
   text-align: center;
   display: block;
-  padding: 10px 10px;
 }
 
 .main-nav a {
   background: #fff;
   margin-bottom: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /* ---- Layout Containers ---- */
 
 .main-header {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .main-header,
@@ -121,6 +128,10 @@ footer {
   border-top: 2px solid #eceff1;
 }
 /* ---- Page Elements ---- */
+
+.main-nav a:active {
+  background-color: #eceff1;
+}
 
 .img-profile {
   width: 75%;

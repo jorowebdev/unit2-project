@@ -15,29 +15,29 @@
 
 <body>
 
-  <header class="main-header">
+  <header class="main-header" id="top-section">
 
-    <h1 class="name"><a href="#">Snozzlebert Coddleswort</a></h1>
+    <h1 class="name">Snozzlebert Coddleswort</h1>
 
     <nav class="main-nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
-      <ul>
+        <li><a href="#top-section">Home</a></li>
+        <li><a href="#portfolio-section">Portfolio</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
     </nav>
 
   </header>
 
   <main>
 
-    <section class="about">
+    <section class="about" id="about-section">
       <img class="img-profile" src="images/profile.png" alt="profile graphic of Snozzlebert Coddleswort">
       <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio-section">
 
         <div class="container">
 
@@ -73,8 +73,8 @@
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
           </article>
 
-          <article class="calculator" alt="graphic representing a calculator app">
-            <img src="images/portfolio-6.png">
+          <article class="calculator">
+            <img src="images/portfolio-6.png" alt="graphic representing a calculator app">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
           </article>
@@ -83,7 +83,7 @@
 
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills-section">
         <h2>Skills</h2>
         <p>I continue to develop and complement the following skills:</p>
         <ul class="list-skills">
@@ -95,7 +95,7 @@
         </ul>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact-section">
         <h2>Contact</h2>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
         <p class="tel">Phone <a href="tel:+11115551234">+1(111)555-1234</a></p>
@@ -108,12 +108,12 @@
     <h2>Snozzlebert Coddleswort</h2>
 
     <ul>
-      <li class="footer-nav"><a href="#">Home</a></li>
-      <li class="footer-nav"><a href="#">Portfolio</a></li>
-      <li class="footer-nav"><a href="#">Skills</a></li>
-      <li class="footer-nav"><a href="#">Contact</a></li>
-      <li class="back"><a href="#">Back To Top</a></li>
-    <ul>
+      <li class="footer-nav"><a href="#top-section">Home</a></li>
+      <li class="footer-nav"><a href="#portfolio-section">Portfolio</a></li>
+      <li class="footer-nav"><a href="#skills-section">Skills</a></li>
+      <li class="footer-nav"><a href="#contact-section">Contact</a></li>
+      <li class="back"><a href="#top-section">Back To Top</a></li>
+    </ul>
   </footer>
 
 </body>
