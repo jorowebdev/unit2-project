@@ -6,13 +6,13 @@
 	box-sizing: border-box;
 }
 
-/* css to test and implement =====
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
+	font-family: 'Source Sans Pro', sans-serif;;
+	line-height: 1.5;
 	color: #3a3a3a;
 }
 
+/* css to test and implement =====
 p {
 	font-size: .95em;
 	margin-bottom: 1.8em;
