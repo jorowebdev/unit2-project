@@ -12,19 +12,10 @@ body {
 	color: #3a3a3a;
 }
 
-/* css to test and implement =====
 p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
+	font-size: 1em;
+	margin-bottom: 1.5em;
 }
-
-h2,
-h3,
-a {
-	color: #093a58;
-}
-
-================================== */
 
 h2,
 h3 {
