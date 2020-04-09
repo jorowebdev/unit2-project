@@ -125,8 +125,7 @@ p {
   margin: 0 auto;
   padding-bottom: 2em;
 }
-.skills p,
-.contact p {
+.skills p, {
     padding-bottom: 1em;
 }
 
@@ -149,8 +148,8 @@ p {
 .tel,
 .email {
   word-spacing: 10px;
+  padding-bottom: 5px;
 }
-
 
 /* =================================
   Media Queries
