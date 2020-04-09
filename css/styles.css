@@ -99,6 +99,12 @@ footer {
   padding-top: 2em;
 }
 
+.skills {
+  background-color: #eceff1;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 /* ---- Page Elements ---- */
 
 .img-profile {
@@ -114,7 +120,25 @@ p {
   margin: 0 auto;
   padding-bottom: 2em;
 }
+.skills p {
+    padding-bottom: 1em;
+}
 
+.list-skills {
+  margin-bottom: 0;
+}
+
+.list-skills li {
+  display: inline-block;
+  color: white;
+  background: #2472aa;
+  padding: 5px 5px;
+  margin-top: 5px;
+}
+
+.list-skills li:nth-child(odd) {
+  background: #626f7e;
+}
 
 
 /* =================================
