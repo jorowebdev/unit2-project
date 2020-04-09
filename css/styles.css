@@ -22,6 +22,11 @@ h3 {
 	margin-top: 0;
 }
 
+h2,
+ul {
+  text-transform: uppercase;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;
