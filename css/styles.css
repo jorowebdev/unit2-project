@@ -78,10 +78,15 @@ img {
 }
 
 .main-header,
-main,
+.container,
 footer {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.portfolio {
+  background: #fff;
+  padding-top: 2em;
 }
 
 /* ---- Page Elements ---- */
