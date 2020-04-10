@@ -248,6 +248,10 @@ footer ul {
     padding-bottom: 3em;
   }
 
+  .portfolio p {
+    font-size: 1.1em;
+  }
+
   .gallery p,
   .calculator p{
     padding-bottom: 0;
@@ -287,9 +291,26 @@ footer ul {
     margin: 0 auto;
   }
 
-  footer h2,
-  .back {
+  footer h2 {
     font-size: 1em;
+    width: 30%;
+  }
+
+  footer ul {
+    width: 60%;
+  }
+
+  .footer-nav {
+    display: contents;
+  }
+
+  .footer-nav a {
+    padding: 5px 5px;
+    margin-right: 5px;
+  }
+
+  .back {
+    display: none;
   }
 
 }
@@ -347,6 +368,10 @@ footer ul {
 
   .travel {
     clear: right;
+  }
+
+  .map {
+    clear: left;
   }
 
 }
