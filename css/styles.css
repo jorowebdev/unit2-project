@@ -200,7 +200,7 @@ footer ul {
   Media Queries
 ==================================== */
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
   .name {
     font-size: 2em;
@@ -285,10 +285,27 @@ footer ul {
     padding-bottom: 3em;
   }
 
+  .skills div,
+  .contact div {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
   footer h2,
   .back {
     font-size: 1em;
   }
+
+}
+
+@media (min-width: 1025px) {
+
+  .container {
+    width: 80%;
+    max-width: 1100px;
+
+  }
+
 
 }
 
