@@ -20,6 +20,7 @@ main {
 p {
 	font-size: 1em;
 	margin-bottom: 1.5em;
+  font-weight: 300;
 }
 
 h2 {
@@ -240,6 +241,7 @@ footer ul {
     float: left;
     width: 60%;
     text-align: left;
+    font-size: 1.3em;
     padding-right: 10px;
   }
 
@@ -270,6 +272,11 @@ footer ul {
 
   .travel {
     clear: both;
+  }
+
+  .skills p,
+  .contact p {
+    font-size: 1.3em;
   }
 
   .skills,
