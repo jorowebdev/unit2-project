@@ -199,6 +199,92 @@ footer ul {
   Media Queries
 ==================================== */
 
+@media (min-width: 768px) {
+
+  .name {
+    font-size: 2em;
+    padding-bottom: 0;
+  }
+
+  nav ul {
+    display: inline-block;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .main-nav {
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .main-nav a {
+    background-color: transparent;
+    padding: 10px 10px;
+  }
+
+  .img-profile {
+    float: right;
+    width: 40%;
+    padding-bottom: 0;
+  }
+
+  .about {
+    padding-bottom: 3em;
+  }
+
+  .about p {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-right: 10px;
+  }
+
+  .portfolio {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .gallery p,
+  .calculator p{
+    padding-bottom: 0;
+  }
+
+  .col {
+    float: left;
+    width: 50%;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .col:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .col:nth-child(even) {
+    padding-left: 0;
+  }
+
+  .travel {
+    clear: both;
+  }
+
+  .skills,
+  .contact {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  footer h2,
+  .back {
+    font-size: 1em;
+  }
+
+}
+
 /* ---- Float Clearfix ---- */
 
 .clearfix::after {
